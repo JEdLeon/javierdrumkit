@@ -1,0 +1,141 @@
+/*-----tag-----*/
+body {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 50px;
+    text-shadow: 4px 2px #da0463;
+}
+
+
+/*-----class-----*/
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+  
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.red {
+    color: red;
+}
+
+
+/*-----main-----*/
+#main {
+    background-color: #0c1e4d;
+    padding: 5% 0 10%;
+}
+
+.drum {
+    background-color: white;
+    border: 10px solid #192f66;
+    border-radius: 15px;
+    color: #0c1e4d;
+    display: inline-block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 2;
+    margin: 10px;
+    outline: none;
+    text-shadow: 3px 1px #535353;
+    width: 150px;
+    height: 150px;
+}
+
+.btn-text {
+    visibility: visible;
+}
+
+.a {
+    background-image: url("../img/tom3.png");
+    background-repeat: no-repeat;
+    background-position: center 5px;
+    background-size: 75%;
+}
+
+.s {
+    background-image: url("../img/tom1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+}
+
+.d {
+    background-image: url("../img/snare.png");
+    background-repeat: no-repeat;
+    background-position: center 5px;
+    background-size: 75%;
+}
+
+.f {
+    background-image: url("../img/kick.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+}
+
+.j {
+    background-image: url("../img/tom2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+}
+
+.k {
+    background-image: url("../img/tom4.png");
+    background-repeat: no-repeat;
+    background-position: center 5px;
+    background-size: 75%;
+}
+
+.l {
+    background-image: url("../img/crash.png");
+    background-repeat: no-repeat;
+    background-position: center 10px;
+    background-size: 75%;
+}
+
+
+/*------footer------*/
+#footer {
+    background-color: #020e2e;
+    color: white;
+    padding: 5% 0 15%;
+}
+
+
+/*-----@media-----*/
+@media (max-width: 768px) {
+    .drum {
+        width: 130px;
+        height: 130px;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .drum {
+        width: 100px;
+        height: 100px;
+    }
+
+    .btn-text {
+        visibility: hidden;
+    }
+
+    p {
+        font-size: 0.6rem;
+    }
+}
